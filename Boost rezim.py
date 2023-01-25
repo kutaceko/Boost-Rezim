@@ -48,7 +48,15 @@ while True:
         rychlost_y = 1
         
         
-
+    if keys[pygame.K_DOWN] and keys[pygame.K_RSHIFT] :
+        rychlost_x = 0
+    if keys[pygame.K_UP] and keys[pygame.K_RSHIFT] :
+        rychlost_x = 0
+    if keys[pygame.K_RIGHT] and keys[pygame.K_RSHIFT] :
+        rychlost_y = 0
+    if keys[pygame.K_LEFT] and keys[pygame.K_RSHIFT] :
+        rychlost_y = 0
+    okno.fill((252, 255, 255))
     
     
 
