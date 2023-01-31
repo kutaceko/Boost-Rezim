@@ -46,7 +46,7 @@ while True:
     if keys[pygame.K_RSHIFT] == False :
         rychlost_x = 1
         rychlost_y = 1
-        
+    pygame.display.set_caption('Boost-rezim')    
         
     if keys[pygame.K_DOWN] and keys[pygame.K_RSHIFT] :
         rychlost_x = 0
